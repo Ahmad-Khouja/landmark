@@ -5,9 +5,9 @@ import { BrowserRouter } from "react-router-dom";
 import Footer from "../../components/Footer/Footer";
 
 const Layout = (props) => {
-  const [tabIndex, setTabIndex] = useState(0);
+  const [tabIndex, setTabIndex] = useState();
   return (
-    <BrowserRouter>
+
       <NavigationContext.Provider
         value={{
           tabIndex,
@@ -20,7 +20,7 @@ const Layout = (props) => {
         <main>{props.children}</main>
         <Footer/>
       </NavigationContext.Provider>
-    </BrowserRouter>
+
   );
 };
 

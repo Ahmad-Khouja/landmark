@@ -26,15 +26,15 @@
 
 @media (min-width:  900px ) and (max-width:  1200px ) {
   .Logo {
-    width: 150px;
+    width: 160px;
     height: 40px;
   }
 }
 
 @media (min-width:  1200px ) and (max-width:  1535px ) {
   .Logo {
-    width:250px;
-    height: 62px;
+    width:240px;
+    height: 60px;
 }
 }
 
