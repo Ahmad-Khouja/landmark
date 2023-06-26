@@ -12,7 +12,6 @@ import { useNavigate } from "react-router-dom";
 import { NavigationContext } from "../../helper/context";
 import { xsTheme, smTheme, mdTheme, lgTheme, xlTheme, gfTheme } from "./theme";
 import MenuIcon from "@mui/icons-material/Menu";
-import { useStyles } from "@mui/material/styles";
 import Logo from "./Logo/Logo";
 
 const AppBar = () => {
@@ -20,7 +19,7 @@ const AppBar = () => {
   const navigate = useNavigate();
 
   const isGfScreen = useMediaQuery("(min-width:0px) and (max-width: 300px");
-  const isXsScreen = useMediaQuery("(min-width:300px) and (max-width: 600px");
+  const isXsScreen = useMediaQuery("(min-width:300px) and (max-width: 680px");
   const isSmScreen = useMediaQuery("(min-width:600px) and (max-width: 900px)");
   const isMdScreen = useMediaQuery("(min-width:900px) and (max-width: 1200px)");
   const isLgScreen = useMediaQuery(

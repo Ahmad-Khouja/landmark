@@ -79,9 +79,9 @@ export const mdTheme = createTheme({
         root: {
           height: "40px",
           minWidth: "10px",
-          paddingInline: "10px",
+          paddingInline: "8px",
           color: "#737373",
-          fontSize: "14px",
+          fontSize: "13px",
           fontWeight: "600",
           textTransform: "none",
           fontStyle: "normal",
@@ -166,19 +166,6 @@ export const gfTheme = createTheme({
         flexContainer: {
           flexDirection: "row",
         },
-        // indicator: {
-        //   display: "flex",
-        //   justifyContent: "center",
-        //   height: "1px",
-        //   "& > span": {
-        //     width: "100%",
-        //     maxWidth: "50%",
-        //     backgroundColor: "#04AAE0",
-        //   },
-        // },
-        // scroller: {
-        //   height: "30px",
-        // },
       },
     },
     MuiTab: {

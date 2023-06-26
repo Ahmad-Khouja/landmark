@@ -1,0 +1,161 @@
+.image1{
+    width: 100%;
+    height: 100%;
+}
+.image2{
+    width: 100%;
+    height: 100%;
+  
+}
+.image3{
+    width: 100%;
+    height: 100%;
+
+}
+.photo{
+
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: inline-block;
+    filter:contrast(100%)
+
+   
+}
+.text {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    color:white;
+    font-size: 24px;
+    font-weight: 900;
+    margin-top: 120px;
+    margin-left: 100px;
+    text-align: center;
+  
+  }
+  
+.cadre{
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.position{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    height: 100%;
+}
+.title{
+    font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 60px;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #4F734F;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+.fleche{
+    width: 40%;
+    height: 40%;
+    align-items: center;
+    margin-left: 40px;
+    cursor: pointer;
+  
+}
+.position1{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    height: 100%;
+}
+.bouton{
+
+justify-content: center;
+align-items: center;
+padding: 12px 20px;
+text-align: center;
+border: none;
+width: 105px;
+height: 48px;
+color: white;
+background: #4F734F;
+box-shadow: 0px 1px 2px rgba(127, 87, 241, 0.05);
+border-radius: 8px;
+justify-content: center;
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.posbtn{
+
+    margin-left: 50%;
+    margin-top: 50px;
+}
+@media screen and (max-width:1200px) {
+    .cadre{
+        margin-top: 50px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+}
+@media screen and (max-width:900px) {
+    .cadre{
+        margin-top: 50px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .text {
+        position: absolute;
+     
+        font-size: 22px;
+        font-weight: 900;
+        margin-top: 50px;
+        margin-left: 50px;
+        text-align: center;
+      }
+      .fleche{
+        width: 40%;
+        height: 40%;
+        align-items: center;
+        margin-left: 20px;
+        cursor: pointer;
+      
+    }
+    .posbtn{
+        margin-left: 40%;
+    }
+}
+@media screen and (max-width:600px) {
+    .cadre{
+        margin-top: 50px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .text {
+        position: absolute;
+     
+        font-size: 12px;
+        font-weight: 900;
+        margin-top: 20px;
+        margin-left: 10px;
+        text-align: center;
+      }
+      .fleche{
+        width: 40%;
+        height: 40%;
+        align-items: center;
+        margin-left: 20px;
+        cursor: pointer;
+      
+    }
+}

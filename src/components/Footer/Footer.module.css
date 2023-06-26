@@ -1,0 +1,201 @@
+.Parent{
+    background: #4F734F;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-top: 4%;
+}
+
+
+
+.LeftPanel{
+width: 40%;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: 'Assistant';
+font-size: 14px;
+}
+
+.Logo{
+    width: 100%;
+    height: 100%;
+}
+
+
+.RightPanel{
+width: 60%;
+height: 100%;
+display: flex;
+flex-direction: column;
+
+}
+
+.TapPanel{
+width: 100%;
+height: 60%;
+padding-top: 5%;
+display: flex;
+flex-direction: row;
+gap: 20px;
+text-align: center;
+align-items: center;
+}
+
+
+.MUIButton{
+    background-color: transparent;
+    border: none;
+    color: white;
+    height: fit-content;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Assistant", sans-serif;
+}
+
+
+
+.IconsPanel{
+width: fit-content;
+height: 40%;
+display: flex;
+flex-direction: row;
+gap: 10px;
+justify-content: flex-start;
+}
+
+
+
+.Center{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+.Line{
+    
+    background-color: white;
+    color: white;
+    margin: 0 auto;
+    mix-blend-mode: normal;
+    
+    opacity: 0.2;
+    height: 1px;
+    border: '2px solid black';
+    width: 80%;
+}
+
+
+.image{
+    width: 300px;
+    height: 77px;
+}
+
+@media screen and (min-width:100px) and (max-width:600px){
+    
+.image{
+    width: 100px;
+    height: 70px;
+}
+
+.RightPanel{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    
+    }
+
+    .TapPanel{
+        width: 60%;
+        height: 100%;
+        padding-top: 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+        text-align: center;
+        align-items: center;
+        }
+
+
+        .IconsPanel{
+            width: 40%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            justify-content: center;
+            align-items: center;
+            }
+            
+}
+
+@media screen and (min-width:600px) and (max-width:900px){
+
+    .MUIButton{
+    font-size: 12px;
+    }
+
+    .image{
+        width: 150px;
+        height: 70px;
+    }
+    
+    .RightPanel{
+        width: 70%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        
+        }
+
+        .LeftPanel{
+            width: 30%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Assistant';
+            font-size: 14px;
+            }
+    
+        .TapPanel{
+            width: 100%;
+            height: 60%;
+            padding-top: 5%;
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            text-align: center;
+            align-items: center;
+            }
+    
+    
+            .IconsPanel{
+                width: fit-content;
+                height: 40%;
+                display: flex;
+                flex-direction: row;
+                gap: 10px;
+                justify-content: flex-start;
+                }
+}
+
+@media screen and (min-width:900px) and (max-width:1200px){
+    .MUIButton{
+        font-size: 14px;
+        }
+}
+
+@media screen and (min-width:1200px){
+    .MUIButton{
+        font-size: 16px;
+        }
+}
+
+

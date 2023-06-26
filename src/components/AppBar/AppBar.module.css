@@ -26,11 +26,7 @@ p{
     font-weight: 600;
     font-family: Montserrat, sans-serif;
 }
-@media (min-width:1200px) and (max-width: 1535px) {
-    .AppBarLarge{
-        padding-inline: 5%;
-    }
-}
+
 
 @media(max-width: 300px){
     .MenuIcon{
@@ -38,5 +34,17 @@ p{
     }
     p{
         font-size: 12px;
+    }
+}
+
+@media (min-width:1200px) and (max-width: 1535px) {
+    .AppBarLarge{
+        padding-inline: 5%;
+    }
+}
+
+@media (min-width:900px) and (max-width: 1200px) {
+    .AppBarLarge{
+        padding-inline: 2%;
     }
 }

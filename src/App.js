@@ -1,16 +1,19 @@
-import logo from "./logo.svg";
 import "./App.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import {Routes, Route } from "react-router-dom";
 import Layout from "./hoc/Layout/Layout";
+import Home from "./containers/Home/Home";
+import OurApproach from "./containers/OurApproach/OurApproach";
+import Terms from "./containers/Terms/Terms";
+
 
 function App() {
   return (
     <Layout>
       <Routes>
-        <Route path="/" element={<div>home</div>} />
+        <Route path="/" element={<Home/>} />
         <Route path="/about-us" element={<div>about-us</div>} />
         <Route path="/projects" element={<div>projects</div>} />
-        <Route path="/our-approach" element={<div>our-approach</div>} />
+        <Route path="/our-approach" element={<OurApproach/>} />
         <Route
           path="/safety-and-sustainability"
           element={<div>safety-and-sustainability</div>}
@@ -21,7 +24,7 @@ function App() {
         <Route path="/careers" element={<div>careers</div>} />
         <Route
           path="/terms-and-conditions"
-          element={<div>terms-and-conditions</div>}
+          element={<Terms/>}
         />
       </Routes>
     </Layout>
