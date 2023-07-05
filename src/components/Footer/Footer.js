@@ -18,8 +18,8 @@ return (
 <div className={classes.TapPanel}>
 <button className={classes.MUIButton} > ABOUT US</button>
 <button className={classes.MUIButton} > PROJECTS</button>
-<button className={classes.MUIButton} > FAQ'S</button>
-<button className={classes.MUIButton} > CAREERS</button>
+<button className={classes.MUIButton} onClick={()=>navigate("/landmark/faq")}> FAQ'S</button>
+<button className={classes.MUIButton} onClick={()=>navigate("/landmark/careers")}> CAREERS</button>
 <button className={classes.MUIButton} onClick={()=>navigate("/landmark/terms-and-conditions")}> TERMS & CONDITIONS</button>
 <button className={classes.MUIButton}> CONTACT US</button>
 </div>

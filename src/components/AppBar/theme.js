@@ -114,9 +114,9 @@ export const Themes = (index) => {
             root: {
               height: "40px",
               minWidth: "10px",
-              padding: "14px",
+              padding: "12px",
               color: index === 0 ? "white" : "#737373",
-              fontSize: "13px",
+              fontSize: "12px",
               fontWeight: "600",
               textTransform: "none",
               fontStyle: "normal",

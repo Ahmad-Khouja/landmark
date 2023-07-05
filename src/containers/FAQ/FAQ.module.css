@@ -1,0 +1,110 @@
+.Parent{
+width: 100%;
+height: 100%;
+display: flex;
+flex-direction: column;
+}
+
+.Header{
+    width: 100%;
+    height: 350px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.Title{
+
+    width: 60%;
+color: #4F734F;
+text-align: center;
+font-size: 90px;
+font-family: Playfair Display;
+font-weight: 700;
+line-height: 137px;
+text-transform: capitalize; 
+
+
+}
+
+
+.cardGrid{
+    width: 100%;
+    display: grid;
+    padding: 0px;
+    grid-template-columns: repeat(3,350px);
+    row-gap: 50px;
+    column-gap: 20px;
+}
+
+
+.gridParent{
+    width: 100%;
+    padding: 80px;
+    padding-bottom: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+@media screen and (min-width:100px) and (max-width:600px){
+    .cardGrid{
+        display: grid;
+        grid-template-columns: repeat(1,auto);
+        grid-auto-rows: auto;
+        width: 100%;
+        /* display: grid;
+        grid-template-columns: repeat(1,100px);
+        column-gap: 30px; */
+    }
+
+    .gridParent{
+        width: 100%;
+        padding: 10px;
+        padding-bottom: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .Header{
+        width: 100%;
+        height: 200px;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    
+    .Title{
+    
+        width: 60%;
+    color: #4F734F;
+    text-align: center;
+    font-size: 45px;
+    font-family: Playfair Display;
+    font-weight: 700;
+    line-height: 50px;
+    text-transform: capitalize; 
+    
+    
+    }
+}
+
+@media screen and (min-width:600px) and (max-width:900px){
+    
+}
+
+@media screen and (min-width:900px) and (max-width:1200px){
+    
+}
+
+@media screen and (min-width:1200px){
+    
+}

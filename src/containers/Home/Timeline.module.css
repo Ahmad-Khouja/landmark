@@ -170,8 +170,8 @@ height: 64px;
 border: none;
 font-family: 'Montserrat';
 font-style: normal;
-font-weight: 700;
-font-size: 23px;
+font-weight: 600;
+font-size: 20px;
 line-height: 24px;
 /* identical to box height, or 150% */
 
@@ -184,6 +184,9 @@ cursor: pointer;
 flex: none;
 order: 0;
 flex-grow: 0;
+}
+.container{
+    display:flex
 }
 
 

@@ -1,0 +1,118 @@
+.Parent{
+    width: 100%;
+    height: 100%;
+}
+
+.Container{
+display: flex;
+flex-direction: column;
+width: 100%;
+height: 100%;
+}
+
+.AboutUs{
+    width: 100%;
+    height: 100%;
+    padding: 7%;
+    display: flex;
+    column-gap: 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.FirstSection{
+display: flex;
+flex-direction: row;
+width: 100%;
+height: 30%;
+padding: 2%;
+
+}
+
+
+
+.SecondSection{
+width: 100%;
+height: 70%;
+padding: 2%;
+}
+
+.FirstLeft{
+width: 40%;
+height: 100%;
+align-items: center;
+justify-content: center;
+
+}
+
+.Title1{
+    width: 100%;
+    height: 100%;
+    font-size: 69px;
+text-align: center;
+
+font-family: 'Playfair Display';
+font-weight: 700;
+color: #4F734F;
+}
+
+.FirstRight{
+width: 60%;
+height: 100%;
+
+}
+
+
+.paragraph1{
+    width: 100%;
+    height: 100%;
+
+    font-weight: 500;
+    color: #A3A3A3;
+}
+
+.OurPr{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #4F734F;
+}
+
+
+/*Responsive mode*/
+
+@media screen and (min-width:100px) and (max-width:600px){
+    .FirstSection{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 30%;
+        padding: 2%;
+        
+        }
+
+        .FirstLeft{
+            height: 40%;
+            width: 100%;
+        }
+
+        .FirstRight{
+            height: 60%;
+            width: 100%;
+        }
+}
+
+@media screen and (min-width:600px) and (max-width:900px){
+    
+}
+
+@media screen and (min-width:900px) and (max-width:1200px){
+    
+}
+
+@media screen and (min-width:1200px){
+    
+}

@@ -1,4 +1,4 @@
-import React from 'react'
+import {React, useState} from 'react'
 import { styled } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
@@ -20,6 +20,19 @@ height:'100%',
   }));
   
 const Destination = () => {
+  const [hoveredIndex, setHoveredIndex] = useState(null);
+
+  const handleMouseEnter = (index) => {
+    setHoveredIndex(index);
+  };
+
+  const handleMouseLeave = () => {
+    setHoveredIndex(null);
+  };
+ 
+    // Add more images and their properties
+
+
   return (
     <div className={classes.cadre}>
     <div className={classes.title}>Featured Properties</div>
@@ -27,24 +40,41 @@ const Destination = () => {
       <Grid container >
         <Grid item xs={4} md={4} lg={4}  >
           <Item  >
+            <div className={classes.container}>
           <img src={House} className={classes.image1}></img>
-        
+        <div className={classes.overlay}>
+          <div className={classes.content}>
+            <div>House Of Ryuu</div>
+            <img src={Fleche} className={classes.fleche}></img>
+            </div>
+            </div>
+            </div>
           </Item>
 </Grid>
 
           <Grid item xs={4} md={4} lg={4}  >
           <Item >
             <div className={classes.position}>
+            <div className={classes.container}>
           <img src={Elora}  className={classes.photo}>
-         
           </img>
-       
-          <div className={classes.text}>
-    Elora, The  hills
-    <img src={Fleche} className={classes.fleche}></img>
-  </div>
+          <div className={classes.overlay}>
+          <div className={classes.content}>
+            <div>Elora, The Hills</div>
+            <img src={Fleche} className={classes.fleche}></img>
+            </div>
+            </div>
+          </div>
         
+          <div className={classes.container}>
           <img src={Miranda}  className={classes.image2}></img>
+          <div className={classes.overlay}>
+          <div className={classes.content}>
+            <div>Miranda Central</div>
+            <img src={Fleche} className={classes.fleche}></img>
+            </div>
+            </div>
+          </div>
        
           </div>
           </Item>
@@ -53,10 +83,25 @@ const Destination = () => {
           <Grid item xs={4} md={4} lg={4}  >
           <Item >
          <div className={classes.position1}>
+         <div className={classes.container}>
           <img src={Adam}  className={classes.image2}></img> 
-       
+          <div className={classes.overlay}>
+          <div className={classes.content}>
+            <div>Adamstown Living</div>
+            <img src={Fleche} className={classes.fleche}></img>
+            </div>
+            </div>
+          </div>
+
+          <div className={classes.container}>
           <img src={Belrose}  className={classes.image2}></img>
-       
+          <div className={classes.overlay}>
+          <div className={classes.content}>
+            <div>The Belrose Collection</div>
+            <img src={Fleche} className={classes.fleche}></img>
+            </div>
+            </div>
+          </div>
           </div>  
           </Item>
         </Grid>

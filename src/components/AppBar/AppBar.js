@@ -13,14 +13,15 @@ import { NavigationContext } from "../../helper/context";
 import { Themes } from "./theme";
 import MenuIcon from "@mui/icons-material/Menu";
 import Logo from "./Logo/Logo";
+import Background from "../../containers/Home/Background";
 
 const AppBar = () => {
   const { tabIndex, setTabIndex } = useContext(NavigationContext);
   const navigate = useNavigate();
 
   const isGfScreen = useMediaQuery("(min-width:0px) and (max-width: 300px");
-  const isXsScreen = useMediaQuery("(min-width:300px) and (max-width: 600px");
-  const isSmScreen = useMediaQuery("(min-width:600px) and (max-width: 900px)");
+  const isXsScreen = useMediaQuery("(min-width:300px) and (max-width: 720px");
+  const isSmScreen = useMediaQuery("(min-width:720px) and (max-width: 900px)");
   const isMdScreen = useMediaQuery("(min-width:900px) and (max-width: 1200px)");
   const isLgScreen = useMediaQuery(
     "(min-width:1200px) and (max-width: 1535px)"
@@ -66,9 +67,10 @@ const AppBar = () => {
           className={classes.AppBarMobile}
         >
           <MenuIcon
-           className={classes.MenuIcon}
-           style={{color: tabIndex === 0 ? "white" : "black"}}
-          onClick={handleClick} />
+            className={classes.MenuIcon}
+            style={{ color: tabIndex === 0 ? "white" : "black" }}
+            onClick={handleClick}
+          />
           <div>
             <Menu
               anchorEl={anchorEl}
@@ -135,6 +137,9 @@ const AppBar = () => {
           </div>
           <Logo />
         </div>
+        <div style={{ display: tabIndex === 0? "block" : "none" }}>
+          <Background />
+        </div>
       </div>
       {/* LARGE SCREENS */}
       <div
@@ -199,6 +204,9 @@ const AppBar = () => {
               }}
             />
           </Tabs>
+        </div>
+        <div style={{ display: tabIndex === 0? "block" : "none" }}>
+          <Background />
         </div>
       </div>
     </ThemeProvider>

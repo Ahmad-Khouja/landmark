@@ -11,7 +11,7 @@ function Time() {
     })
   return (
     <div>
-       <Box  >
+       <Box  className={classes.container}>
         <Stack direction={{xs:'column',sm:'row'}}  marginTop="100px" >
 <styledBox  className={classes.left} > 
 <img src={Unsplash} className={classes.image}></img>

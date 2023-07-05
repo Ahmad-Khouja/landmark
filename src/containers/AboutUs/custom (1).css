@@ -1,0 +1,94 @@
+
+
+
+
+.swiper-custom {
+  
+    position: relative;
+}
+.swiper-wrapper{
+    position: relative;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+   
+}
+
+.swiper-slide {
+   
+  
+    background: #fff;
+
+    /* Center slide text vertically */
+     display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-button-prev, .swiper-button-next {
+position:-webkit-sticky;
+
+    background-color:blue;
+    height: 30px+;
+    width: 30px;
+    border-radius: 50%;
+  
+    
+ 
+}
+
+.swiper-button-prev::after, .swiper-button-next::after{
+    color: rgba(99,88,238,1);
+    font-size: 18px;
+}
+
+
+/* .swiper-button-prev{
+    left: calc(50% - 40px);
+
+}
+
+
+.swiper-button-next {
+    right: calc(50% - 40px);
+
+}  */
+
+
+/* @media (max-width: 600px) {
+    /* Write your CSS rules for small screens here */
+    /* .swiper-button-prev, .swiper-button-next {
+        margin-top: -177px;
+    
+  }}
+   */
+  /* Styles for screens between 601px and 1024px */
+  /* @media (min-width: 601px) and (max-width: 1024px) {
+    /* Write your CSS rules for medium screens here */
+    /* .swiper-button-prev, .swiper-button-next {
+        margin-top: -433px;
+    
+  } */
+
+  /* } */
+  
+  /* Styles for screens larger than 1024px */
+

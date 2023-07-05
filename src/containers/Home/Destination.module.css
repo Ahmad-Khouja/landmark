@@ -1,7 +1,44 @@
-.image1{
+
+.container {
+    position: relative;
+    width: 100%;
+    height:100%;
+  }
+  
+  .image1 {
+    width: 100%;
+    height:100%;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
-}
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the background color and opacity as desired */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .container:hover .image1 {
+    opacity: 0.5; /* Adjust the opacity value to your preference */
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .content {
+    color: white;
+    font-size: 20px;
+    /* Add any other styles for the content */
+  }
+
 .image2{
     width: 100%;
     height: 100%;
@@ -97,7 +134,9 @@ flex-grow: 0;
 }
 .posbtn{
 
-    margin-left: 50%;
+  display:flex;
+  text-align:center;
+  justify-content:center;
     margin-top: 50px;
 }
 @media screen and (max-width:1200px) {
@@ -131,9 +170,7 @@ flex-grow: 0;
         cursor: pointer;
       
     }
-    .posbtn{
-        margin-left: 40%;
-    }
+ 
 }
 @media screen and (max-width:600px) {
     .cadre{

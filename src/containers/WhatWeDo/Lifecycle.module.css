@@ -1,0 +1,136 @@
+.container{
+    width: 100%;
+    display:flex;
+ justify-content:center;
+ flex-direction:column;
+ gap:20px;
+ padding-left: 17%;
+ padding-right: 17%;
+ text-align:center
+}
+.total{
+    display:flex;
+    justify-items:center;
+    display: flex;
+/* Center vertically */
+  justify-content: center; /* Center horizontally */
+
+
+}
+.poscard{
+    width:70%;
+    height:100%
+}
+.image{
+    width:10%;
+    height:100%;
+ 
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+
+}
+.one{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    
+}
+
+.text{
+    
+
+color: #53686A;
+font-size: 20.195px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 700;
+line-height: 43.293px; 
+
+
+}
+.position{
+    width: 100%;
+    display:flex;
+    flex-direction:row;
+    gap:50px
+}
+.card{
+  
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    text-align: start; 
+    padding: 30px;
+width:90%;
+border-radius: 30px;
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1))
+linear-gradient(0deg, #FFFFFF, #FFFFFF);
+height:400px;
+
+box-shadow: 4px 4px 30px 0px #0000001A;
+border: 1px solid #0000001A
+
+}
+
+
+
+
+  @media screen and (min-width:100px) and (max-width:600px){
+
+    .position{
+        width: 100%;
+        height: auto;
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content: center;
+        gap:10px
+    }
+
+    .text{        
+        font-size: 16.195px;
+        line-height: 16.293px; 
+        }
+  }
+  
+  @media screen and (min-width:600px) and (max-width:900px){
+      
+    .card {
+        width: 100%; /* Full width for smaller screens */
+        height: auto; /* Let the height adjust based on content */
+      }
+
+
+      .position{
+        width: 100%;
+        height: auto;
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content: center;
+        gap:10px
+    }
+
+    .text{        
+        font-size: 18.195px;
+        line-height: 20.293px; 
+        }
+  }
+  
+  @media screen and (min-width:900px) and (max-width:1200px){
+    .text{        
+        font-size: 20.195px;
+        line-height: 30.293px; 
+        }
+  }
+  
+  @media screen and (min-width:1200px){
+    .text{        
+        font-size: 35.195px;
+        line-height: 45.293px; 
+        }
+  }
+  

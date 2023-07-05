@@ -1,0 +1,32 @@
+.title{
+    font-family: Playfair Display;
+font-size: 90px;
+font-weight: 700;
+line-height: 137px;
+letter-spacing: 0em;
+text-align: center;
+color: #4F734F;
+align-items:center;
+text-align:center;
+
+}
+.text{
+    display:flex;
+    align-items:center;
+text-align:center;
+justify-content:center;
+color:grey;
+padding:50px;
+
+}
+@media (max-width: 768px) {
+    title{
+        font-family: Playfair Display;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 107px;
+    letter-spacing: 0em;}
+    .text{
+        padding-left:0px
+    }
+}

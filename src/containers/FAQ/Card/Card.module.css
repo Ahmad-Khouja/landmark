@@ -1,0 +1,73 @@
+.Parent{
+width: 340px;
+height: fit-content;
+display: flex;
+flex-direction: column;
+
+
+}
+
+.div1{
+    width: 100%;
+    height: fit-content;
+display: flex;
+align-items: flex-start;
+}
+
+.div2{
+width: 100%;
+height: fit-content;
+}
+
+
+.circleLabel {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(79, 115, 79, 0.20);;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .questionMark {
+    color: #4F734F;
+    font-size: 22.62px;
+    font-family: Inter;
+    font-weight: 800;
+    line-height: 33.931px; 
+  }
+
+
+.Title{
+
+    display: flex;
+flex-direction: column;
+align-self: stretch; 
+width: 100%;
+color: #53686A;
+font-size: 20.195px;
+font-family: Montserrat;
+font-weight: 700;
+line-height: 30.293px; 
+}
+
+.Paragraph{
+width: 100%;
+height: fit-content;
+
+color: #53686A;
+font-size: 16.156px;
+font-family: Montserrat;
+line-height: 24.235px; 
+}
+
+@media screen and (min-width:100px) and (max-width:600px){
+  .Parent{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    }
+
+}
