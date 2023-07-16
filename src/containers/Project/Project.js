@@ -220,7 +220,7 @@ The Belrose collection is the redevelopment of the iconic Belrose library consis
           <Grid item xs={12} md={6} lg={6}  >
           <Item className={classes.right} >
 <div className={classes.box}>
-<div className={classes.title} >House of Ryuu</div>
+<div className={classes.title} id="house-of-Ryuu">House of Ryuu</div>
 <div className={classes.paragraphe}>From the moment you step through the front door, you'll be wowed by the 
 attention to detail and the high end finishes that adorn every inch of this magnificent property.
 The kitchen is a chef's dream, with its top-of-the-line appliances, sleek cabinetry, and beautiful stone countertops. You'll love entertaining in this space, whether you're whipping up a gourmet meal for friends or just enjoying a quiet dinner with your family.

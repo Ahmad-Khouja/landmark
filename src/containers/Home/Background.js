@@ -1,8 +1,9 @@
 import React from 'react'
 import classes from './Background.module.css'
+import { useNavigate } from 'react-router-dom'
 
 function Background() {
-
+  const navigate = useNavigate();
   return (
   <section className={classes.home} id="home">
     
@@ -11,7 +12,7 @@ function Background() {
      <div className={classes.soustitre}>The Landmark team has been operating in the Australian market for more than 35 years. They work across
          all sectors of the property market, residential, commercial, and industrial.</div>
         
-         <button className={classes.bouton}> Read More</button>
+         <button className={classes.bouton} onClick={()=>{navigate("/landmark/about-us")}}> Read More</button>
        
     </div>
    

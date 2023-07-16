@@ -11,6 +11,7 @@ import WhateWeDo from "./containers/WhatWeDo/WhatWeDo";
 import FAQ from "./containers/FAQ/FAQ";
 import SafetyPage from "./containers/Safety/SafetyPage";
 import AboutUs from "./containers/AboutUs/AboutUs";
+import Contact from "./containers/Contact/Contact";
 function App() {
   return (
     <BrowserRouter> {/* Wrap the App component with BrowserRouter */}
@@ -36,7 +37,7 @@ function App() {
                   element={<SafetyPage/>}
                 />
                 <Route path="/what-we-do" element={<WhateWeDo/>} />
-                <Route path="/contact-us" element={<div>contact-us</div>} />
+                <Route path="/contact-us" element={<Contact/>} />
                 <Route path="/faq" element={<FAQ/>} />
                 <Route path="/careers" element={<Working/>} />
                 <Route path="/terms-and-conditions" element={<Terms />} />

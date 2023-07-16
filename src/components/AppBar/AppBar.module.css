@@ -1,19 +1,25 @@
 .HeaderLarge{
-    background-image: 
-      url("../../assets/images/HomeHeader.png");
+    /* background-image: 
+      url("../../assets/images/HomeHeader.png"); */
     /* background-position: center; */
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat;
     background-size: cover ;
-    height: 100vh;
+    height: 100vh; */
+    position: absolute;
+    width: 100%;
+    z-index: 2;
 }
 
 .HeaderMobile{
-    background-image: 
+    /* background-image: 
       url("../../assets/images/HomeHeader.png");
     background-position: center;
     background-repeat: no-repeat;
-    height: 25vh;
-    margin-bottom: 50%;
+    height: 100vh;
+    margin-bottom: 50%; */
+    position: absolute;
+    width: 100%;
+    z-index: 2;
 }
 
 

@@ -137,9 +137,6 @@ const AppBar = () => {
           </div>
           <Logo />
         </div>
-        <div style={{ display: tabIndex === 0? "block" : "none" }}>
-          <Background />
-        </div>
       </div>
       {/* LARGE SCREENS */}
       <div
@@ -204,9 +201,6 @@ const AppBar = () => {
               }}
             />
           </Tabs>
-        </div>
-        <div style={{ display: tabIndex === 0? "block" : "none" }}>
-          <Background />
         </div>
       </div>
     </ThemeProvider>

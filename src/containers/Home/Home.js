@@ -3,8 +3,10 @@ import Time from "./Timeline";
 import Destination from "./Destination";
 import Cadre from "./Cadre";
 import HomeVideo from "../../assets/videos/HomeHeaderVideo.mp4";
+import classes from "./Home.module.css";
 // import Background from "./Background";
 import { NavigationContext } from "../../helper/context";
+import Background from "./Background";
 
 function Home() {
   const { tabIndex, setTabIndex } = useContext(NavigationContext);
@@ -12,8 +14,19 @@ function Home() {
     setTabIndex(0);
   });
   return (
-    <div style={{ marginTop: "20%" }}>
+    <div>
       {/* <Background /> */}
+      <div className={classes.vpc}>
+      {/* Video component */}
+      <video autoPlay loop className={classes.vp}>
+        <source src={HomeVideo} type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+       <div style={{ position: "absolute",zIndex:"5",top:"5%"}}>
+          <Background />
+        </div>
+      <div className={classes.top}></div>
+    </div>
       <Time />
       <Cadre />
       <Destination />

@@ -10,6 +10,7 @@ import Belrose from '../../assets/images/Belrose.png';
 import House from '../../assets/images/House1.png';
 import classes from './Destination.module.css';
 import Fleche from '../../assets/images/fleche.png'
+import { useNavigate } from 'react-router-dom';
 const Item = styled(Paper)(({ theme }) => ({
 
     padding: theme.spacing(1),
@@ -32,7 +33,7 @@ const Destination = () => {
  
     // Add more images and their properties
 
-
+  const navigate = useNavigate();
   return (
     <div className={classes.cadre}>
     <div className={classes.title}>Featured Properties</div>
@@ -108,7 +109,7 @@ const Destination = () => {
        </Grid>
         </Box>
         <div className={classes.posbtn}>
-        <button className={classes.bouton}>View All</button>
+        <button className={classes.bouton} onClick={()=>navigate("/landmark/projects")}>View All</button>
         </div>
     </div>
   )

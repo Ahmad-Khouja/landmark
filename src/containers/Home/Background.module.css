@@ -2,9 +2,6 @@
     display: flex;
     align-items: center;
     min-height:100vh;
-    /* background:url('../Assets/cover.png') no-repeat;
-    background-size:cover;
-    background-position: center; */
 }
 .home .content{
     max-width:55rem;
@@ -63,9 +60,9 @@ border:none;
     }
     .title{
         font-family: Playfair Display;
-    font-size: 32px;
+    font-size: 26px;
     font-weight: 700;
-    line-height: 30px;
+    line-height: 28px;
     letter-spacing: 0em;
     text-align: left;
     color:white;
@@ -76,7 +73,7 @@ border:none;
         font-family: Montserrat;
     font-size: 15px;
     font-weight: 500;
-    line-height: 22px;
+    line-height: 18px;
     letter-spacing: 0px;
     text-align: left;
     color:white;

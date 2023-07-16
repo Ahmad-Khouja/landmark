@@ -6,3 +6,9 @@ main{
     background-color: #FBFBFB;
     margin-bottom: 100px;
 }
+
+.header{
+    position: absolute;
+    top: 200px;
+    left: 0;
+}
