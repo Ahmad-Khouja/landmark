@@ -15,18 +15,7 @@ import Contact from "./containers/Contact/Contact";
 function App() {
   return (
     <BrowserRouter> {/* Wrap the App component with BrowserRouter */}
-      <Routes>
-        <Route
-          path="/"
-          element={
-            <Landing/>
-          }
-        />
-        <Route
-          path="/landmark/*"
-          element={
-            <Layout>
-              <Outlet/>
+        <Layout>
               <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/about-us" element={<AboutUs/>} />
@@ -43,9 +32,6 @@ function App() {
                 <Route path="/terms-and-conditions" element={<Terms />} />
               </Routes>
             </Layout>
-          }
-        />
-      </Routes>
     </BrowserRouter>
   );
 }

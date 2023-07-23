@@ -80,7 +80,7 @@ const AppBar = () => {
               <MenuItem
                 onClick={() => {
                   handleClose();
-                  navigate("/landmark");
+                  navigate("/");
                 }}
               >
                 <p>Home</p>
@@ -88,7 +88,7 @@ const AppBar = () => {
               <MenuItem
                 onClick={() => {
                   handleClose();
-                  navigate("/landmark/about-us");
+                  navigate("/about-us");
                 }}
               >
                 <p>About Us</p>
@@ -96,7 +96,7 @@ const AppBar = () => {
               <MenuItem
                 onClick={() => {
                   handleClose();
-                  navigate("/landmark/projects");
+                  navigate("/projects");
                 }}
               >
                 <p>Projects</p>
@@ -104,7 +104,7 @@ const AppBar = () => {
               <MenuItem
                 onClick={() => {
                   handleClose();
-                  navigate("/landmark/our-approach");
+                  navigate("/our-approach");
                 }}
               >
                 <p>Our Approach</p>
@@ -112,7 +112,7 @@ const AppBar = () => {
               <MenuItem
                 onClick={() => {
                   handleClose();
-                  navigate("/landmark/safety-and-sustainability");
+                  navigate("/safety-and-sustainability");
                 }}
               >
                 <p>Safety & Sustainability</p>
@@ -120,7 +120,7 @@ const AppBar = () => {
               <MenuItem
                 onClick={() => {
                   handleClose();
-                  navigate("/landmark/what-we-do");
+                  navigate("/what-we-do");
                 }}
               >
                 <p>What We Do</p>
@@ -128,7 +128,7 @@ const AppBar = () => {
               <MenuItem
                 onClick={() => {
                   handleClose();
-                  navigate("/landmark/contact-us");
+                  navigate("/contact-us");
                 }}
               >
                 <p>Contact Us</p>
@@ -155,49 +155,49 @@ const AppBar = () => {
               disableRipple
               label="Home"
               onClick={() => {
-                navigate("/landmark");
+                navigate("/");
               }}
             />
             <Tab
               disableRipple
               label="About Us"
               onClick={() => {
-                navigate("/landmark/about-us");
+                navigate("/about-us");
               }}
             />
             <Tab
               disableRipple
               label="Projects"
               onClick={() => {
-                navigate("/landmark/projects");
+                navigate("/projects");
               }}
             />
             <Tab
               disableRipple
               label="Our Approach"
               onClick={() => {
-                navigate("/landmark/our-approach");
+                navigate("/our-approach");
               }}
             />
             <Tab
               disableRipple
               label="Safety & Sustainability"
               onClick={() => {
-                navigate("/landmark/safety-and-sustainability");
+                navigate("/safety-and-sustainability");
               }}
             />
             <Tab
               disableRipple
               label="What We Do"
               onClick={() => {
-                navigate("/landmark/what-we-do");
+                navigate("/what-we-do");
               }}
             />
             <Tab
               disableRipple
               label="Contact Us"
               onClick={() => {
-                navigate("/landmark/contact-us");
+                navigate("/contact-us");
               }}
             />
           </Tabs>

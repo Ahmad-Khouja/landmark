@@ -36,6 +36,7 @@
   .content {
     color: white;
     font-size: 20px;
+    text-decoration: none;
     /* Add any other styles for the content */
   }
 

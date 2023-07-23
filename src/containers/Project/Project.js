@@ -33,7 +33,7 @@ function Project() {
     setTabIndex(2);
   });
   return (
-    <div>
+    <div id='top'>
         <div className={classes.titre}> Our Projects</div>
         <div className={classes.soustitre}>The Landmark team has worked with some 
         of the world’s leading companies and brands</div>
@@ -49,7 +49,7 @@ function Project() {
           <Grid item xs={12} md={6} lg={6}  >
           <Item className={classes.right} >
 <div className={classes.box}>
-<div className={classes.title} > Adamstown Living</div>
+<div className={classes.title} id="adamstown-living" > Adamstown Living</div>
 <div className={classes.paragraphe}>The development consists of 40 apartments and 4 commercial spaces located in the heart of thriving Newcastle. A green focused building PV panels and electric car charges,
      it is one of the most aesthetically pleasing developments to hit Adamstown.</div>
      <br/>  <br/>
@@ -84,7 +84,7 @@ function Project() {
         <Grid item xs={12} md={6} lg={6}  >
           <Item className={classes.left} >
           <div className={classes.box}>
-<div className={classes.title} > Miranda Central</div>
+<div className={classes.title} id="miranda-central"> Miranda Central</div>
 <div className={classes.paragraphe}>For those who desire everything at their fingertips, Miranda Central Presents the ultimate Sutherland Shire address. These brand new 1,2 and 3-bedroom apartments showcase affordable luxury and unrivalled convenience in a one-of-a-kind boutique building. Located in the heart of Miranda Town Centre, just a stone's throw to a host of leisure attractions, Westfield Miranda and the 
 station, they offer a stylish, vibrant and connected way of life.</div>
      <br/>
@@ -132,7 +132,7 @@ station, they offer a stylish, vibrant and connected way of life.</div>
           <Grid item xs={12} md={6} lg={6}  >
           <Item className={classes.right} >
 <div className={classes.box}>
-<div className={classes.title} > Elora, The Hills</div>
+<div className={classes.title} id="the-elora-hills"> Elora, The Hills</div>
 <div className={classes.paragraphe}>
 Elora, Baulkham Hills is a boutique development. Featuring 4 levels with 56 Luxury apartments, a mix between one, two and three bedroom options. With spacious balconies and courtyard,
  as well as two-level underground carpark in the heart of the hills district.
@@ -169,7 +169,7 @@ Elora, Baulkham Hills is a boutique development. Featuring 4 levels with 56 Luxu
         <Grid item xs={12} md={6} lg={6}  >
           <Item className={classes.left} >
           <div className={classes.box}>
-<div className={classes.title} > The Belrose Collection</div>
+<div className={classes.title} id="the-belrose-collection"> The Belrose Collection</div>
 <div className={classes.paragraphe}>
 The Belrose collection is the redevelopment of the iconic Belrose library consisting of 50 residential apartments, 13 commercial lots, 2 basements with 238 car spaces (between residential and commercial spaces) and disabled access into each lot. The development caters for a large array of business types, think retail, medical, allied health, gyms, specialised health services, professional, food & beverage and many more. In addition, there's a
  large communal open atrium space with alfresco seating & landscaped garden throughout.

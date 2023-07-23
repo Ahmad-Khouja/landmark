@@ -16,7 +16,7 @@ function OurApproach() {
       
       })
 return (
-  <div>
+  <div id="top">
       <div className={classes.title}>
       Our Approach
       </div>

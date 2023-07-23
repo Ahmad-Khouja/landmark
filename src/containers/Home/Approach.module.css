@@ -1,0 +1,151 @@
+.title{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #4F734F;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.bouton{
+    width: 130px;
+height: 64px;
+border: none;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height, or 150% */
+text-decoration: none;
+justify-content: center;
+color: #FFFFFF;
+text-align: center;
+background-color: #4F734F;
+/* Inside auto layout */
+cursor: pointer;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.posbouton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.bouton:hover{
+    color:  #4F734F;
+    background-color: white;
+}
+.container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .rond {
+    box-shadow: 0px 4px 24px 0px #a2b5a2;
+    color: #ffffff;
+    width: 174px;
+    height: 174px;
+    border-radius: 50%;
+    position: relative; /* Add position relative to the circle container */
+  }
+  
+  .posimage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .image {
+    width: 100%; /* Use 100% to make the image fill the container */
+    height: 100%; /* Use 100% to make the image fill the container */
+    /* Add border-radius to make the image round */
+  }
+  .text{
+    font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 27px;
+/* identical to box height, or 133% */
+text-align: center;
+letter-spacing: 0.02em;
+font-feature-settings: 'liga' off;
+  }
+  .pos{
+    margin-left: -19px;
+  }
+  .posrond{
+    display: flex;
+    flex-direction: column;
+  
+  }
+  .design{
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+  }
+  .total{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  .horizontal{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 80px;
+  }
+  .horizontal1{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 40px;
+  
+  }
+  @media (max-width: 768px) {
+    .total{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+      }
+      .horizontal{
+        width: 100%;
+        height: 100%;
+        transform: rotate(90deg);
+        margin-bottom: 0px;
+      }
+      .pos{
+        margin-left: 0px;
+      }
+      .horizontal1{
+        width: 100%;
+        height: 100%;
+        transform: rotate(90deg);
+        margin-bottom: 0px;
+      }
+      .container{
+        display: flexbox;
+        flex-direction: column;
+      }
+      .design{
+      margin-top: 55px;
+          gap:55px;
+            display: flex;
+            flex-direction: column;
+         
+      }
+  }

@@ -174,11 +174,19 @@ padding-left: 30px;
 padding-right: 30px;
 
 
-background-image: url('../../assets/images/Adamstown.png');
+background-image: linear-gradient(
+    rgba(255, 255, 255, 0.5),
+    rgba(255, 255, 255, 0.5)
+  ),
+  url("../../assets/images/Adamstown.png");
+/* background-image: url('../../assets/images/Adamstown.png'); */
+background-color: rgba(255, 255, 255, 0.5); /* Adjust the alpha (last value) to control the opacity of the white overlay */
+
 background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
+
 
 .div6div1{
 width: 100%;
@@ -517,3 +525,5 @@ text-transform: capitalize;
                             text-transform: capitalize; 
                             }
 }
+
+

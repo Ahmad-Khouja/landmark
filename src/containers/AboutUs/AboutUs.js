@@ -20,7 +20,7 @@ const images = [
 
 
 return (
-    <div className={classes.Parent}>
+    <div id="top"  className={classes.Parent}>
 
     <div className={classes.Container}>
         <div className={classes.AboutUs}>
